@@ -40,3 +40,35 @@
 .read-the-docs {
   color: #888;
 }
+
+.color-picker {
+  display: flex; /* Ensures buttons align neatly */
+  flex-direction: column;
+  width: 130px; /* Set a fixed width for uniformity */
+  height: 40px; /* Set a fixed height for uniformity */
+}
+
+.button {
+  display: flex; /* Ensures buttons align neatly */
+  flex-direction: column;
+  width: 130px; /* Set a fixed width for uniformity */
+  height: 40px; /* Set a fixed height for uniformity */
+  padding: 0.5em 1em; /* Add some padding for better spacing */
+  font-size: 16px; /* Set a consistent font size */
+  text-align: center; /* Center the text inside the button */
+  border: none; /* Remove default borders */
+  border-radius: 5px; /* Add rounded corners */
+  background-color: #000000; /* Set a default background color */
+  color: white; /* Set the text color */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.button:hover {
+  background-color: #1c76d6; /* Darken the background on hover */
+}
+
+.button:disabled {
+  background-color: #aaa; /* Gray out the button when disabled */
+  cursor: not-allowed; /* Show a not-allowed cursor when disabled */
+}
