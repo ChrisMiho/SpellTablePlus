@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "name": "SpellTablePlus",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  }
+}
