@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <a href='https://github.com/ChrisMiho' target='_blank'>
+        <a href='https://github.com/ChrisMiho/SpellTablePlus' target='_blank'>
           <img
             src={spellBuddyPlusLogo}
             className='logo'
